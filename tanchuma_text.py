@@ -43,7 +43,7 @@ def get_data(test_size = 0.1 , permitted_characters = "אבגדהוזחטיכך�
         return txt3
 
     paths = {}
-    main_path = 'data/tanchuma_text/' if os.path.exists("data") else '../data/tanchuma_text/'
+    main_path = 'tanchuma_text/' if os.path.exists("tanchuma_text") else '../tanchuma_text/'
     paths['Tanchuma'] = main_path+'Tsel Midrash Tanchuma.json'
     paths['Tanchuma Buber'] = main_path+'Midrash Tanhuma haKadum veHaYashan, S. Buber, 1885.json'
     paths['Shemot Rabbah'] = main_path+'Daat Shemot Rabbah.json'
